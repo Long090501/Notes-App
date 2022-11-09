@@ -1,0 +1,10 @@
+.notes-list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));    /*auto-fit: đủ số ô tối đa có kích thước ít nhất 250px trong màn hình
+                                                                    min-max: các cột sẽ luôn có chiều rộng ít nhất 250px. 
+                                                                    Tuy nhiên, nếu có nhiều không gian hơn, các ô sẽ phân phối nó
+                                                                    một cách bình đẳng cho mỗi cột để lấp đầy khoảng thừa vì các cột
+                                                                    đã biến thành một đơn vị phân đoạn thay vì cố định 250p*/
+                                                                    
+}

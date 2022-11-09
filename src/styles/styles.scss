@@ -1,0 +1,9 @@
+@import './components/note';
+@import './components/notes-list';
+@import './components/add-note';
+
+.container {
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    padding: 0 15px 0 15px;
+}

@@ -1,0 +1,37 @@
+.add-note {
+    background-color: #67d7cc;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+            background-color: #e1e1e1;
+            border: none;
+            border-radius: 15px;
+            padding: 5px 10px;
+        }
+
+        button:hover {
+            background-color: #ededed;
+            cursor: pointer;
+        }
+    }
+
+    textarea {
+        border: none;
+        resize: none;    //ngăn người dùng thay đổi kích thước ô nhập dữ liệu
+        background-color: #67d7cc;
+    }
+
+    textarea:focus {
+        outline: none;
+    }
+}
