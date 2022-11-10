@@ -29,6 +29,7 @@
         border: none;
         resize: none;    //ngăn người dùng thay đổi kích thước ô nhập dữ liệu
         background-color: #67d7cc;
+        word-wrap: break-word
     }
 
     textarea:focus {

@@ -1,9 +1,20 @@
 @import './components/note';
 @import './components/notes-list';
 @import './components/add-note';
+@import './components/search';
+@import './components/header';
 
 .container {
     max-width: 960px;
     margin: 0 auto 0 auto;
     padding: 0 15px 0 15px;
+    min-height: 100vh;
+}
+
+.dark-mode {
+    background-color: black;
+}
+
+.dark-mode h1 {
+    color: white;
 }
